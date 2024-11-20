@@ -1,0 +1,266 @@
+#search {
+  font-size: 35px;
+  background: transparent;
+}
+ #search_bar{
+  border-radius: 80%;
+ }
+#search_Input {
+  border-radius: 25%;
+  border: none;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  // background-color: darkgray;
+  
+}
+#search_Icon {
+ margin-top: 5px;
+  padding: 5px;
+  // position: absolute;
+    font-size: 15px;
+    border-radius: 39%;
+    // right: 830px;
+
+    // bottom: 5px;
+    color: white;
+}
+
+
+#Card_ViewTimestamp {
+  background-color: #c7d0d7;
+  overflow: auto;
+
+}
+#InputGroup_ViewTimeStamp{
+// float:right;
+width: 30%;
+border-radius: 100%;
+padding-right:0px;
+}
+
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #9ca6b2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+//   @media (max-width: 1200px) { 
+//     #search {
+//   font-size: 35px;
+//   background: transparent;
+// }
+//  #search_bar{
+//   border-radius: 100%;
+//  }
+// #search_Input {
+//   border-radius: 25%;
+//   border: none;
+//   font-size: 25px;
+//   text-align: center;
+//   position: relative;
+//   // background-color: darkgray;
+  
+// }
+// #search_Icon {
+//   // position: absolute;
+//   // // font-size: 27px;
+//   // right: 268px;
+//   // // bottom: 7px;
+//   // border-radius: 100px;
+//   padding: 5px;
+//   position: absolute;
+//     font-size: 15px;
+//     border-radius: 39%;
+//     right: 950px;
+//     // bottom: 5px;
+//     color: white;
+// }
+
+
+// #Card_ViewTimestamp {
+//   background-color: darkgrey;
+
+// }
+// #InputGroup_ViewTimeStamp{
+// float:right;
+// width: 50%;
+// border-radius: 100%;
+// padding-right:0px;
+// }
+//    }
+
+// // #Card_ViewTimestamp {
+// //   background-color: darkgrey;
+
+// // }
+// // #InputGroup_ViewTimeStamp{
+// // float:right;
+// // width: 50%;
+// // border-radius: 100%;
+// // padding-right:0px;
+// // }
+// //  }
+
+// //  @media (min-width: 768px) { 
+// //   #search {
+// //   font-size: 35px;
+// //   background: transparent;
+// // }
+// //  #search_bar{
+// //   border-radius: 100%;
+// //  }
+// // #search_Input {
+// //   border-radius: 25%;
+// //   border: none;
+// //   font-size: 25px;
+// //   text-align: center;
+// //   position: relative;
+// //   // background-color: darkgray;
+  
+// // }
+// // #search_Icon {
+// //   // position: absolute;
+// //   // // font-size: 27px;
+// //   // right: 268px;
+// //   // // bottom: 7px;
+// //   // border-radius: 100px;
+// //   padding: 5px;
+// //   position: absolute;
+// //     font-size: 15px;
+// //     border-radius: 39%;
+// //     right: 950px;
+// //     // bottom: 5px;
+// //     color: white;
+// // }
+
+
+// // #Card_ViewTimestamp {
+// //   background-color: darkgrey;
+
+// // }
+// // #InputGroup_ViewTimeStamp{
+// // float:right;
+// // width: 50%;
+// // border-radius: 100%;
+// // padding-right:0px;
+// // }
+// //  }
+
+// //  @media (min-width: 992px) { 
+// //   #search {
+// //   font-size: 35px;
+// //   background: transparent;
+// // }
+// //  #search_bar{
+// //   border-radius: 100%;
+// //  }
+// // #search_Input {
+// //   border-radius: 25%;
+// //   border: none;
+// //   font-size: 25px;
+// //   text-align: center;
+// //   position: relative;
+// //   // background-color: darkgray;
+  
+// // }
+// // #search_Icon {
+// //   // position: absolute;
+// //   // // font-size: 27px;
+// //   // right: 268px;
+// //   // // bottom: 7px;
+// //   // border-radius: 100px;
+// //   padding: 5px;
+// //   position: absolute;
+// //     font-size: 15px;
+// //     border-radius: 39%;
+// //     right: 950px;
+// //     // bottom: 5px;
+// //     color: white;
+// // }
+
+
+// // #Card_ViewTimestamp {
+// //   background-color: darkgrey;
+
+// // }
+// // #InputGroup_ViewTimeStamp{
+// // float:right;
+// // width: 50%;
+// // border-radius: 100%;
+// // padding-right:0px;
+// // }
+// //   }
+
+// //   @media (min-width: 1200px) { 
+// //     #search {
+// //   font-size: 35px;
+// //   background: transparent;
+// // }
+// //  #search_bar{
+// //   border-radius: 100%;
+// //  }
+// // #search_Input {
+// //   border-radius: 25%;
+// //   border: none;
+// //   font-size: 25px;
+// //   text-align: center;
+// //   position: relative;
+// //   // background-color: darkgray;
+  
+// // }
+// // #search_Icon {
+// //   // position: absolute;
+// //   // // font-size: 27px;
+// //   // right: 268px;
+// //   // // bottom: 7px;
+// //   // border-radius: 100px;
+// //   padding: 5px;
+// //   position: absolute;
+// //     font-size: 15px;
+// //     border-radius: 39%;
+// //     right: 950px;
+// //     // bottom: 5px;
+// //     color: white;
+// // }
+
+
+// // #Card_ViewTimestamp {
+// //   background-color: darkgrey;
+
+// // }
+// // #InputGroup_ViewTimeStamp{
+// // float:right;
+// // width: 50%;
+// // border-radius: 100%;
+// // padding-right:0px;
+// // }
+// //    }
+
+//  @media (max-width: 576.15px) { 
+
+//  #search_bar{
+//   border-radius: 100%;
+//  }
+// #search_Input {
+//   border-radius: 25%;
+//   border: none;
+//   font-size: 25px;
+//   text-align: center;
+//   position: relative;
+//   // background-color: darkgray;
+  
+// }
+// #search_Icon {
+//       padding: 5px;
+//     position: absolute;
+//     margin-top: 4px;
+//     font-size: 14px;
+//     border-radius: 39%;
+//     right: 358px;
+//     color: white;
+// }
+// }

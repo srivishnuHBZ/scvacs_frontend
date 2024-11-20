@@ -1,0 +1,77 @@
+#InputGroup {
+  border-radius: 25%;
+  border: none;
+}
+
+#search_icon {
+  color: #675cff;
+  font-size: 18;
+}
+#table_Edit_Button {
+  border-radius: 300px;
+  border: none;
+  margin: 2px 4px;
+  background-color: #28a745;
+  color: white;
+  width: 10vh;
+}
+#table_Delete_Button {
+  border-radius: 300px;
+  border: none;
+  margin: 2px 4px;
+  background-color: red;
+  color: white;
+  width: 10vh;
+}
+#Add_Button {
+  // float:center;
+  width: 100%;
+  border-radius: 300px;
+}
+#ManageVehicleDetailsCard1 {
+  background-color: #c7d0d7;
+  box-shadow: #96a7af 7px 7px;
+  border-radius: 30px;
+  border: solid 2.5px #74808a;
+}
+#ManageVehicleDetailsCard2 {
+  background-color: #c7d0d7;
+  box-shadow: #96a7af 7px 7px;
+  border-radius: 30px;
+  border: solid 2.5px #74808a;
+  // height: 300px;
+  // overflow-y: scroll;
+}
+
+#CardBody{
+  height:300px;
+  overflow-y: scroll;
+
+}
+
+#CardBody ::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 10px;
+    height: 30px;
+  overflow-y: scroll;
+}
+#CardBody::-webkit-scrollbar {
+  box-shadow: inset 0 0 5px grey;
+  width: 10px;
+  height: 300px;
+
+  &-track {
+    background: #756464;
+  }
+
+  &-thumb {
+    background: #888;
+    -webkit-border-radius: 5px;
+    border-radius: 0%;
+
+    &:hover {
+      background: #555;
+    }
+  }
+}
