@@ -6,7 +6,7 @@ import ManageVehicleDetails from "../components/ManageVehicleDetails";
 // import { BrowserRouter as Router, Link } from "react-router-dom";
 import ViewVehicleDetails from "../components/ViewVehicleDetails";
 import ViewTimestamp from "../components/ViewTimestamp";
-import Unisel from "../assets/img/unisel.png";
+import Unisel from "../assets/img/ums.png";
 
 
 import {
@@ -53,7 +53,7 @@ const Dashboard = () => {
               </h3>
 
               <h1 id="text-main2" style={{fontSize: "6vh"}}>
-                <span className="text-primary"> VNPR</span>
+                <span className="text-primary"> SCVACS</span>
                 <span className="text-danger"> DASHBOARD</span>
               </h1>
             </div>
