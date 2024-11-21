@@ -76,7 +76,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'scvacsums'
-          slot-name: 'Staging'
           package: ./build
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3F5E5F3D8A64D33B95C23719C0F2584 }}
   
@@ -84,7 +83,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'scvacsums'
-          slot-name: 'Production'
+          # slot-name: 'Production'
           swap-with-production: true
   
       - name: Check if App is Running
