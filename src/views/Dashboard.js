@@ -6,7 +6,7 @@ import ManageVehicleDetails from "../components/ManageVehicleDetails";
 // import { BrowserRouter as Router, Link } from "react-router-dom";
 import ViewVehicleDetails from "../components/ViewVehicleDetails";
 import ViewTimestamp from "../components/ViewTimestamp";
-import Unisel from "../assets/img/ums.png";
+import UMS from "../assets/img/ums.png";
 
 
 import {
@@ -41,15 +41,15 @@ const Dashboard = () => {
           <Col className="bg-none mt-50">
             <div className="d-flex ml-auto justify-content-between mt-4">
               <h3 id="text-main">
-                <a class="navbar-brand" href="#">
-                  <img
-                    src={Unisel}
-                    width="250"
-                    height="100"
-                    className="d-inline-block align-top"
-                    alt="Unisel"
-                  />
-                </a>
+              <div className="navbar-brand">
+                <img
+                  src={UMS}
+                  width="250"
+                  height="100"
+                  className="d-inline-block align-top"
+                  alt="UMS"
+                />
+              </div>
               </h3>
 
               <h1 id="text-main2" style={{fontSize: "6vh"}}>
